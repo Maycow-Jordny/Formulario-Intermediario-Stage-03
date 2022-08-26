@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    background-color: #E5E5E5;
+}
+
+body::before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 436px;
+    background-color: #535971;
+    z-index: -1;
+}
+
+.box {
+    width: 750px;
+    margin: auto;
+}
+
+header {
+    padding-top: 140px;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 18px;
+}
+
+header p {
+    margin-bottom: 53px;
+    width: 250px;
+}
+
+form {
+    padding: 64px 0;
+    width: 750px;
+    height: 1084px;
+    background: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+}
+
+fieldset {
+    width: 622px;
+    margin: auto;
+    border: none;
+}
+
+legend {
+    font-family: 'Staatliches', cursive;
+}
+
+
+
+fieldset legend {
+
+    color: #535971;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.line {
+    border: 1px solid #E6E6F0;
+    margin-bottom: 34px;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 15px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    height: 56px;
+    font-size: 14px;
+    font-style: normal;
+}
+
+h5 {
+    color: #535971;
+    font-size: 20px;
+
+    margin-bottom: 8px;
+}
+
+span {
+    color: #C1BCCC;
+    font-size: 12px;
+}
+
+.input-name {
+    display: flex;
+    justify-content: flex-start;
+    gap: 22px;
+}
+
+.input-name div {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-name input {
+    width: 300px;
+    margin-bottom: 16px;
+
+}
+
+.input-validate div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+
+.mentor-name div {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 32px;
+}
+
+
+.coluns {
+    display: flex;
+    gap: 32px;
+}
+
+.coluns:nth-child(3) {
+
+    margin-left: 32px;
+}
+
+
+.date input {
+    display: flex;
+    justify-content: ;
+    width: 300px;
+
+    margin-bottom: 16px;
+
+}
+
+.time input {
+    width: 140px;
+
+    margin-bottom: 16px;
+}
+
+#m {
+    margin-bottom: 64px;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    background: #535971;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.btn {
+    margin: center;
+    width: 608px;
+    height: 55px;
+    padding: 15px 40px;
+    border-radius: 20px;
+    background: #FF5374;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

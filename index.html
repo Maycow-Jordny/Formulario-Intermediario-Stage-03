@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario Intermediario</title>
+</head>
+
+<body>
+    <div class="box">
+        <header>
+            <h1>MENTORIA</h1>
+            <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+        </header>
+
+        <section>
+            <main>
+                <form action="">
+                    <fieldset>
+                        <legend>INFORMAÇÕES PESSOAIS</legend>
+                        <div class="line">
+
+                        </div>
+
+                        <div class="input-name">
+                            <div>
+                                <label for="nome">Nome</label>
+                                <input type="text" name="name" required>
+                            </div>
+
+                            <div>
+                                <label for="nome">Sobrenome</label>
+                                <input type="text" name="name" required>
+                            </div>
+                        </div>
+
+                        <div class="input-validate">
+
+                            <div>
+                                <label for="email">Email <span>(digite um email válido)</span></label>
+                                <input type="name" id="email" name="email" required>
+                            </div>
+
+
+                            <div>
+                                <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
+                                <input type="password" id="password" name="password" min="6" required>
+                            </div>
+                        </div>
+
+                        <legend>INFORMAÇÕES DO MENTOR</legend>
+
+                        <div class="line">
+
+                        </div>
+
+                        <div class="mentor-name">
+                            <div>
+                                <label for="nome-mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+                                <input type="text" name="name" id="nome-mentor" required>
+                            </div>
+                        </div>
+
+                        <legend>SEUS HORÁRIOS DISPONÍVEIS</legend>
+
+                        <div class="line">
+
+                        </div>
+
+                        <h5>PRIMEIRA MENTORIA</h5>
+
+                        <div class="input-date">
+
+                            <div class="coluns">
+
+                                <div class="date">
+                                    <label for="">Data <span>(DD/MM/AAAA)</span> </label>
+                                    <input type="date" id="date" required>
+                                </div>
+
+                                <div class="time">
+                                    <label for="time">Das</label>
+                                    <input type="time" id="time" required>
+                                </div>
+
+                                <div class="time">
+                                    <label for="time">até</label>
+                                    <input type="time" id="time" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h5>SEGUNDA MENTORIA</h5>
+
+                        <div class="input-date-2">
+
+
+                            <div class="coluns" id="m">
+
+                                <div class="date">
+                                    <label for="">Data <span>(DD/MM/AAAA)</span> </label>
+                                    <input type="date" id="date" required>
+                                </div>
+
+                                <div class="time">
+                                    <label for="time">Das</label>
+                                    <input type="time" id="time" required>
+                                </div>
+
+                                <div class="time">
+                                    <label for="time">até</label>
+                                    <input type="time" id="time" required>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <footer>
+                        <button class="btn">SALVAR</button>
+
+
+                    </footer>
+                </form>
+            </main>
+        </section>
+    </div>
+</body>
+
+</html>
